@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: message
-      image: atbotella/atb-istio-1:api1
+      image: atbotella/demo:v1
       env:
         - name: CHARACTER
           value: "gitops con Flux sobre cluster K3D"
